@@ -1,0 +1,153 @@
+{
+  "spec_version": "2.2",
+  "name": "English-learning-template",
+  "reference_file": "assets/reference.docx",
+  "reference_sha256": "91a372607cfa065bd7a30104e2fb83b552ae1ad82f9c9acb84e3b3f7f461ca91",
+  "filename_pattern": "{date:YYYYMMDD}_English worksheet_Day{day}.docx",
+  "timezone": "Asia/Shanghai",
+  "default_output": "docx",
+  "page_twips": {
+    "width": 11906,
+    "height": 16838,
+    "top": 879,
+    "bottom": 879,
+    "left": 992,
+    "right": 992,
+    "header": 408,
+    "footer": 408
+  },
+  "fonts": {
+    "latin": "Times New Roman",
+    "cjk": "宋体",
+    "math": "Cambria Math"
+  },
+  "font_sizes_pt": {
+    "day_title": 26,
+    "date": 11,
+    "section": 15,
+    "section_caption": 9.5,
+    "subheading": 11,
+    "vocabulary": 8,
+    "confused_words": 8,
+    "reading_title": 14,
+    "reading_body": 11
+  },
+  "vocabulary": {
+    "count": 20,
+    "columns": [
+      "No.",
+      "Word",
+      "Chinese definition",
+      "Collocation",
+      "Example sentence"
+    ],
+    "grid_twips": [
+      522,
+      1417,
+      1417,
+      3685,
+      2835
+    ],
+    "headword_and_pronunciation_same_cell": true,
+    "collocations_per_word": [
+      3,
+      4
+    ],
+    "collocations_need_chinese": true,
+    "bilingual_example": true,
+    "header_fill": "D7D7D7",
+    "number_column_fill": "D7D7D7",
+    "border_color": "000000",
+    "border_pt": 0.5
+  },
+  "confused_words": {
+    "outer_columns": 2,
+    "grid_twips": [
+      4960,
+      4961
+    ],
+    "independent_formula_categories": [
+      "释义概括",
+      "辨析",
+      "词形拓展"
+    ],
+    "optional_category": "反义拓展",
+    "formula_label_min_width_twips": 640,
+    "formula_gap_twips": 80,
+    "patterns_nested_by_headword": true,
+    "notes_outside_formulas": true,
+    "fixed_group_count": null,
+    "border_color": "000000",
+    "border_pt": 0.5
+  },
+  "dictation": {
+    "tables": 1,
+    "columns": [
+      "No.",
+      "中文提示",
+      "英文默写",
+      "英文提示",
+      "中文默写"
+    ],
+    "grid_twips": [
+      500,
+      2350,
+      2350,
+      1900,
+      2820
+    ],
+    "english_prompt_order": "reverse",
+    "answers_blank": true,
+    "min_row_height_twips": 340,
+    "border_color": "000000",
+    "border_pt": 0.25
+  },
+  "sections": [
+    "SECTION I  |  VOCABULARY STUDY",
+    "SECTION III  |  GRAMMAR",
+    "SECTION IV  |  READING COMPREHENSION",
+    "SECTION V  |  TRANSLATION & WRITING"
+  ],
+  "exercise_defaults": {
+    "grammar_questions": 5,
+    "reading_paragraphs": 4,
+    "reading_glossary_items": 6,
+    "reading_questions": 4,
+    "translation_questions": 3,
+    "writing_sentence_range": [
+      3,
+      5
+    ]
+  },
+  "reference_preview": {
+    "method": "WPS native COM read-only PDF export, rasterized with Poppler at 144 dpi",
+    "engine": "WPS",
+    "native_pagination_verified": true,
+    "native_word_pagination_verified": false,
+    "pages": 7,
+    "all_pages_visually_reviewed": true
+  },
+  "skill_name": "English-learning-template",
+  "reference_source_filename": "EnglishLearning_Day1_20261123.docx",
+  "filename_regex": "^(\\d{8})_English worksheet_Day([1-9]\\d*)\\.docx$",
+  "day_title_pattern": "DAY {day}  ·  ENGLISH WORKSHEET",
+  "filename_example": "20261123_English worksheet_Day1.docx",
+  "table_borders": {
+    "preset": "all",
+    "line_style": "single",
+    "color": "000000",
+    "outer_edges": [
+      "top",
+      "left",
+      "bottom",
+      "right"
+    ],
+    "inner_edges": [
+      "insideH",
+      "insideV"
+    ],
+    "cell_overrides": "explicit black; clear theme/gray/white/auto overrides",
+    "row_overrides": "same black All Borders policy",
+    "vocabulary_first_number_cell_left": "000000"
+  }
+}

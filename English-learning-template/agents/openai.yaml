@@ -1,0 +1,7 @@
+interface:
+  display_name: "English-learning-template"
+  short_description: "Create documents with the English-learning-template template"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Use $English-learning-template to create a worksheet named YYYYMMDD_English worksheet_DayN.docx using this template."
+policy:
+  allow_implicit_invocation: true

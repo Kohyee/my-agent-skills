@@ -1,0 +1,6 @@
+interface:
+  display_name: "English-learning-manager"
+  short_description: "管理每日英语学习、作业批改、重点记录、单词汇总、错题复习及能力评估"
+  default_prompt: "使用 $English-learning-manager 读取现有学习记录，开始今日英语学习。"
+policy:
+  allow_implicit_invocation: true
